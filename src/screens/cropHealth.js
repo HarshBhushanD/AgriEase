@@ -267,18 +267,6 @@ const CropHealth = () => {
     setLanguage(lang);
     setIsDropdownOpen(false);
     // Add translation logic here, or load translations for Hindi if available
-    const translations = {
-      home: { en: 'Home', hi: 'होम' },
-      services: { en: 'Services', hi: 'सेवाएं' },
-      weather: { en: 'Weather Forecast', hi: 'मौसम पूर्वानुमान' },
-      cropHealth: { en: 'Crop Health', hi: 'फसल स्वास्थ्य' },
-      farmingTools: { en: 'Farming Tools', hi: 'कृषि उपकरण' },
-      contact: { en: 'Contact', hi: 'संपर्क' },
-      profile: { en: 'Profile', hi: 'प्रोफ़ाइल' },
-      welcome: { en: 'Welcome to the AgriEase', hi: 'AgriEase में आपका स्वागत है' },
-      learnMore: { en: 'Learn More', hi: 'और जानें' },
-      language: { en: 'Language', hi: 'भाषा' },
-    };
     
     
   };
