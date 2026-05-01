@@ -51,12 +51,12 @@ export default function Login() {
     <div className="flex min-h-screen items-center justify-center bg-gray-900">
       <div className="mx-4 w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
         <div className="mb-6 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2">
+          <a href="/home" className="flex items-center gap-2">
             <MountainIcon className="h-6 w-6" />
             <span className="text-xl font-bold">AgriEase</span>
           </a>
           <a
-            href="#"
+            href="/signup"
             className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary/90 focus:outline-none"
           >
             Sign Up
@@ -79,7 +79,7 @@ export default function Login() {
           <div className="mt-4">
             <div className="flex items-center justify-between">
               <Label htmlFor="password">Password</Label>
-              <a href="#" className="text-sm text-gray-600 hover:underline">
+              <a href="/forgot-password" className="text-sm text-gray-600 hover:underline">
                 Forgot password?
               </a>
             </div>

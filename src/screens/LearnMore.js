@@ -42,10 +42,10 @@ const LearnMore = () => {
           <a href="/cropHealth" className="text-black hover:text-gray-800">
             Crop Health
           </a>
-          <a href="#" className="text-black hover:text-gray-800">
+          <a href="/farming" className="text-black hover:text-gray-800">
             Farming Tools
           </a>
-          <a href="#" className="text-black hover:text-gray-800">
+          <a href="/contact" className="text-black hover:text-gray-800">
             Contact
           </a>
         </nav>

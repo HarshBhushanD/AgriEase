@@ -280,7 +280,7 @@ const CropHealth = () => {
       language: { en: 'Language', hi: 'भाषा' },
     };
     
-    const t = (key) => translations[key][language];
+    
   };
 
 

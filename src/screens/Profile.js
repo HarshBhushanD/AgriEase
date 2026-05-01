@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaCamera } from 'react-icons/fa'; // Importing camera icon from react-icons
-import { BsFillPersonFill } from 'react-icons/bs'; // Importing person icon for default state
 
 const ProfilePage = () => {
   const [profilePicture, setProfilePicture] = useState('https://example.com/images/profile.jpg');

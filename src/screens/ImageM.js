@@ -11,14 +11,12 @@ const imageDescriptions = {
 };
 
 const ImageUpload = () => {
-  const [selectedFile, setSelectedFile] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
   const [description, setDescription] = useState('');
   const [showPopup, setShowPopup] = useState(false);
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
-    setSelectedFile(file);
 
     if (file) {
       const reader = new FileReader();
